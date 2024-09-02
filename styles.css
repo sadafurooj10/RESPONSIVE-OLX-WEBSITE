@@ -1,0 +1,714 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+.main {
+    display: flex;
+    justify-content: flex-start;
+    /* justify content will align items to the left */
+    align-items: center;
+    /* items will be alligned in center */
+    gap: 40px;
+    /* adds gap b/w items */
+    padding: 10px;
+    position: relative;
+    left: 30px;
+}
+
+.header {
+    background-color: white;
+    height: 120px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    /* items will be alligned in center */
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    gap: 10px;
+}
+
+.icon {
+    margin-right: 5px;
+    /* will add the space between text and image */
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(lightgrey, white, white);
+}
+
+.logo:hover {
+    color: #2DBEFF;
+    /* text color will be changed when hovered */
+}
+
+.logo .icon {
+    margin-right: 4px;
+    /* will add the space between text and image */
+    filter: none;
+    transition: filter 0.3s ease;
+    /* for hover transition */
+}
+
+.logo:hover .icon {
+    filter: invert(29%) sepia(96%) saturate(1771%) hue-rotate(190deg) brightness(95%) contrast(91%);
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    width: 335px;
+    border: 2px solid black;
+    height: 48px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.search {
+    width: 30px;
+    margin-left: 15px;
+    height: 30px;
+    margin-right: 50px;
+    margin-top: 5px;
+}
+
+.log {
+    text-decoration-line: underline;
+    color: black;
+    margin-left: 1065px;
+    font-weight: bold;
+    display: flex;
+    display: flex;
+    position: relative;
+    bottom: 103px;
+}
+
+.log:hover {
+    text-decoration: none;
+}
+
+.select-input {
+    width: 340px;
+    padding: 10px;
+    position: relative;
+    left: 40px;
+    height: 44px;
+}
+
+.top-bar-items {
+    display: inline-block;
+    padding: 10px;
+}
+
+.search {
+    width: 630px;
+    padding: 10px;
+    height: 44px;
+    position: relative;
+    left: 380px;
+    bottom: 59px;
+}
+
+.fa-magnifying-glass {
+    background-color: #002f3f;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    position: relative;
+    left: 288px;
+    bottom: 59px;
+}
+
+.sell {
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 1150px;
+    bottom: 150px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 4px solid #3a77ff;
+    border-top: 4px solid #3a77ff;
+    border-left: 4px solid #ffce32;
+    border-right: 4px solid #23e5db;
+}
+
+/* main */
+.navbar-menu {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    font-size: 1em;
+    padding-right: 20px;
+    position: relative;
+    right: 70px;
+}
+
+li:hover{
+   cursor: pointer;
+   color: #46aca9;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.header-bottom {
+    padding: 10px;
+    padding-left: 80px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.slideshow {
+    width: 100%;
+    height: 70%;
+    margin-left: 40px;
+}
+
+.ziewnic-img {
+    margin-left: 200px;
+}
+
+.all-cat {
+    margin-left: 20px;
+}
+
+.category-area {
+    padding: 0 8px;
+    margin: 20px;
+}
+
+.main-card {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.category-card {
+    max-width: 200px;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 40px;
+    padding-right: 10px;
+    margin-top: 50px;
+    /* line-height: 40px; */
+    cursor: pointer;
+    /* background-color: red; */
+}
+
+.category-card>img {
+    width: 80px;
+}
+
+.next-line {
+    position: relative;
+    bottom: 40px;
+}
+
+.textmargin {
+    margin: 0;
+}
+
+.card {
+    width: 18em;
+    margin-left: 40px;
+
+}
+
+.card-body {
+    border: 1px solid #bfbfbf;
+    margin-left: 0px;
+    height: 180px;
+
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+
+.card img {
+    width: 17.9em;
+}
+
+.card-text {
+    font-weight: bolder;
+}
+
+.card-text2 {
+    font-weight: lighter;
+}
+
+.card-text3 {
+    font-weight: lighter;
+}
+
+.card-text4 {
+    font-weight: lighter;
+}
+
+.fa-heart {
+    position: relative;
+    left: 110px;
+    bottom: 0px;
+}
+
+
+.card-img-top {
+
+    margin-left: 0px;
+    height: 180px;
+}
+
+.heading {
+    position: relative;
+    left: 10px;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+}
+
+.mobiles-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cars-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bikes-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.houses-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tablets-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lands-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jobs-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-text-jobs .fa-heart {
+    margin-left: 95px;
+
+}
+
+
+/* footer */
+.foot {
+    background-color: #f7f9f9;
+    width: 100vw;
+    height: 200px;
+}
+
+.foot-heading {
+    position: relative;
+    left: 480px;
+    bottom: 170px;
+}
+
+.foot-heading1 {
+    position: relative;
+    left: 480px;
+    bottom: 150px;
+
+}
+
+.foot-heading2 {
+    position: relative;
+    left: 480px;
+    bottom: 145px;
+}
+
+.line {
+    position: relative;
+    left: 750px;
+    bottom: 330px;
+    height: 220px;
+}
+
+.heading2 {
+    position: relative;
+    left: 910px;
+    bottom: 470px;
+}
+
+.app-store-logos {
+    position: relative;
+    left: 870px;
+    bottom: 500px;
+}
+
+.foot2 {
+    background-color: #eaeeef;
+    width: 100vw;
+    height: 220px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+footer h6 {
+    color: #000;
+
+}
+
+footer p {
+    color: #6b6464;
+}
+
+.last {
+    position: relative;
+    left: 470px;
+    bottom: 0px;
+}
+
+.last1 {
+    position: relative;
+    left: 465px;
+    top: 30px;
+
+}
+
+.last2 {
+    position: relative;
+    left: 440px;
+    top: 30px;
+}
+
+.olx-right {
+    position: relative;
+    left: 300px;
+    top: 40px;
+}
+
+.olx-right-2 {
+    position: relative;
+    left: 300px;
+    top: 40px;
+    line-height: 10px;
+}
+
+.about-right {
+    position: relative;
+    left: 220px;
+    top: 40px;
+}
+
+.about-right-2 {
+    position: relative;
+    left: 220px;
+    top: 40px;
+    line-height: 10px;
+}
+
+.search-right {
+    position: relative;
+    left: 140px;
+    top: 40px;
+}
+
+.search-right-2 {
+    position: relative;
+    left: 140px;
+    top: 40px;
+    line-height: 10px;
+}
+
+.cat-right {
+    position: relative;
+    left: 50px;
+    top: 40px;
+}
+
+.cat-right-2 {
+    position: relative;
+    left: 50px;
+    top: 40px;
+    line-height: 10px;
+}
+
+.foot3 {
+    background-color: #003035;
+    width: 100vw;
+    height: 60px;
+}
+
+.green {
+    color: white;
+    position: relative;
+    top: 20px;
+    right: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.foot {
+    background-color: #f7f9f9;
+    width: 100vw;
+    height: 200px;
+}
+
+.foot-heading {
+    position: relative;
+    left: 480px;
+    bottom: 170px;
+}
+
+.foot-heading1 {
+    position: relative;
+    left: 480px;
+    bottom: 150px;
+
+}
+
+.foot-heading2 {
+    position: relative;
+    left: 480px;
+    bottom: 145px;
+}
+
+.line {
+    position: relative;
+    left: 750px;
+    bottom: 330px;
+    height: 220px;
+}
+
+.heading2 {
+    position: relative;
+    left: 910px;
+    bottom: 470px;
+}
+
+.app-store-logos {
+    position: relative;
+    left: 870px;
+    bottom: 500px;
+}
+
+.foot2 {
+    background-color: #eaeeef;
+    width: 100vw;
+    height: 220px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+footer h6 {
+    color: #000;
+
+}
+
+footer p {
+    color: #6b6464;
+}
+
+.last {
+    position: relative;
+    left: 470px;
+    top: 40px;
+    bottom: 90px;
+}
+
+.last2 {
+    position: relative;
+    left: 450px;
+    top: 30px;
+}
+
+.foot3 {
+    background-color: #003035;
+    width: 100vw;
+    height: 60px;
+}
+
+.green {
+    color: white;
+    position: relative;
+    top: 20px;
+    right: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.foot,
+.foot2,
+.foot3 {
+    overflow: hidden;
+    /* Hide any overflow content */
+}
+strong{
+   color: white;
+}
+
+/* Responsive Styles for screens up to 768px */
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column; /* Stack main content vertically */
+        gap: 20px; /* Space between items */
+        padding: 10px 0; /* Adjust padding */
+        left: 0; /* Reset left positioning */
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column; /* Stack logo and items vertically */
+        align-items: center; /* Center horizontally */
+        height: auto; /* Auto height based on content */
+        padding: 10px 0; /* Adjust padding */
+    }
+
+    .logo {
+        font-size: 16px; /* Smaller font size */
+        gap: 10px; /* Space between icons */
+        justify-content: center; /* Center items */
+    }
+
+    .icon {
+        margin-right: 10px; /* Increase space between icons */
+    }
+
+    .input, .search, .log, .sell {
+        display: inline-block; /* Align items */
+        margin: 10px; /* Add margin */
+    }
+
+    .input, .search {
+        width: calc(100% - 20px); /* Full width with margin */
+        margin: 10px auto; /* Center items */
+        position: static; /* Reset positioning */
+    }
+
+    .sell {
+        width: auto; /* Fit content */
+        margin: 10px auto; /* Center button */
+        position: static; /* Reset positioning */
+    }
+
+    .log {
+        position: static; /* Reset positioning */
+        margin: 10px auto; /* Center link */
+        width: auto; /* Fit content */
+        text-align: center; /* Center text */
+    }
+
+    .navbar-menu {
+        flex-direction: column; /* Stack menu items vertically */
+        align-items: center; /* Center items horizontally */
+        width: 100%; /* Full width */
+        padding: 0; /* Remove padding */
+    }
+
+    li {
+        padding: 10px 0; /* Space between items */
+        text-align: center; /* Center text */
+    }
+
+    .header-bottom {
+        padding-left: 0; /* Remove left padding */
+    }
+
+    .slideshow, .ziewnic-img {
+        margin-left: 0; /* Reset margin */
+    }
+
+    .category-card, .card {
+        max-width: 100%; /* Full width on small screens */
+        margin-left: 0; /* Remove left margin */
+    }
+
+    .foot {
+        height: auto; /* Allow height to adjust based on content */
+        padding: 20px; /* Add padding for spacing */
+        text-align: center; /* Center text */
+    }
+
+    .foot-heading, .foot-heading1, .foot-heading2, .line, .heading2, .app-store-logos {
+        position: static; /* Remove absolute or relative positioning */
+         /* Center elements */
+        text-align: center; /* Center text */
+        justify-content: center;
+    }
+
+    .foot2 {
+        height: auto; /* Allow height to adjust based on content */
+        padding: 0px; /* Add padding for spacing */
+        text-align: center; /* Center text */
+    }
+
+    .foot3 {
+        height: auto; /* Allow height to adjust based on content */
+        padding: 10px; /* Add padding for spacing */
+        text-align: center; /* Center text */
+    }
+
+    .green {
+        position: static; /* Remove fixed positioning */
+        margin: 10px auto; /* Center content */
+        justify-content: center; /* Center content */
+    }
+
+    footer h6, footer p {
+        margin: 10px 0; /* Add margin for spacing */
+    }
+
+    .flex {
+        flex-direction: column; /* Stack footer items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .last, .last2 {
+        position: static; /* Remove positioning */
+        margin: 10px auto; /* Center elements */
+    }
+}
+
+/* Optional: Adjust for very small screens */
+@media (max-width: 480px) {
+    .category-card, .card {
+        flex: 1 1 100%; /* Full width on very small screens */
+        max-width: 100%; /* Ensure full width */
+    }
+}
